@@ -2,10 +2,33 @@
 #include <vector>
 using namespace std;
 void juan();
+void nalin();
 
 int main()
 {
-    vector<int> fibnums(2);
+  
+    
+    return 0;
+}
+
+void juan(){
+int a=1,b,c,counter=3;
+
+for(int i=0;i<counter;i++){
+	cout<<a;
+	b=a;
+	cout<<a<<" + "<<b;
+	a=a+b;
+	cout<<a;
+	}
+	
+cout<<"Test \n";
+
+}
+
+void()
+{
+  vector<int> fibnums(2);
     int end=0;
     
    
@@ -26,21 +49,4 @@ int main()
     	fibnums[count]= fibnums[count-2]+fibnums[count-1];
     	cout<< fibnums[count]<<endl;
 	}
-    
-    return 0;
-}
-
-void juan(){
-int a=1,b,c,counter=3;
-
-for(int i=0;i<counter;i++){
-	cout<<a;
-	b=a;
-	cout<<a<<" + "<<b;
-	a=a+b;
-	cout<<a;
-	}
-	
-cout<<"Test \n";
-
 }
