@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-vector<int> nums(2,1);
+vector<long> nums(2,1);
     int end=0;
     int i=2;
     int temp1;
@@ -25,7 +25,7 @@ do
 	}   
 	i++; 
 }	
-while(i<1000);
+while(i!=-1);
 
 for (int start=0; start<i; start++)
 	{
