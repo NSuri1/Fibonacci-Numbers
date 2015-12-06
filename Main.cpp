@@ -6,7 +6,7 @@ void nalin();
 
 int main()
 {
-    juan();
+    
     
     return 0;
 }
