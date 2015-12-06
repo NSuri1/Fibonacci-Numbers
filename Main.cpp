@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-vector<int> nums {1, 1};
+vector<int> nums(2,1);
     int end=0;
     int i=2;
     int temp1;
@@ -18,13 +18,18 @@ do
     temp1= nums[i-2];
     temp2= nums[i-1];
     nums.push_back(temp1+temp2);
-    i++;    
+	
+	if(nums[i]>end)
+	{
+		break;
+	}   
+	i++; 
 }	
 while(i<1000);
 
-for (int val : nums)
+for (int start=0; start<i; start++)
 	{
-		cout << val << endl; 
+		cout << nums[start] << endl; 
 	}
 	
 	return 0;
