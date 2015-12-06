@@ -27,12 +27,12 @@ do
 }	
 while(i!=-1);
 
-for (int start=0; start<i; start++)
+for (int start=0; start<nums.size(); start++)
 	{
 		cout << nums[start] << endl; 
 	}
 	
-	return 0;
+return 0;
 	
 }
 
