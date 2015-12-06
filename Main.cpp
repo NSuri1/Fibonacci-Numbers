@@ -6,7 +6,7 @@ void nalin();
 
 int main()
 {
-  
+    juan();
     
     return 0;
 }
@@ -15,11 +15,11 @@ void juan(){
 int a=1,b,c,counter=3;
 
 for(int i=0;i<counter;i++){
-	cout<<a;
+	cout<<a<<" ";
 	b=a;
 	cout<<a<<" + "<<b;
 	a=a+b;
-	cout<<a;
+	cout<<a<<" ";
 	}
 	
 cout<<"Test \n";
