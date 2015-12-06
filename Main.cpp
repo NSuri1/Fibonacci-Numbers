@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
 using namespace std;
+void juan();
+
 int main()
 {
     vector<int> fibnums(2);
@@ -26,4 +28,19 @@ int main()
 	}
     
     return 0;
+}
+
+void juan(){
+int a=1,b,c,counter=3;
+
+for(int i=0;i<counter;i++){
+	cout<<a;
+	b=a;
+	cout<<a<<" + "<<b;
+	a=a+b;
+	cout<<a;
+	}
+	
+cout<<"Test \n";
+
 }
