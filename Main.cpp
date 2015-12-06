@@ -3,7 +3,20 @@
 using namespace std;
 int main()
 {
-    vector<int> fibnums;
+int a=1,b,c,counter=7;
+
+for(int i;i>counter;i++){
+	cout<<a;
+	b=a;
+	cout<<a<<" + "<<b;
+	a=a+b;
+	}
+	
+cout<<"Test \n";
+	
+	
+	
+   /* vector<int> fibnums;
     int end=0;
     int count=2;
     
@@ -22,6 +35,6 @@ int main()
 //		}
         cout<< fibnums[count]<<endl;
         count++;
-    }
+    }*/
     return 0;
 }
