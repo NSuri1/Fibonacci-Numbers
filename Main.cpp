@@ -26,13 +26,14 @@ do
 	}   
 	i++; 
 }	
-while(i!=-1);
+while(i!==-1);
 
 for (int start=0; start<nums.size(); start++)
 	{
 		cout << nums[start] << endl; 
 	}
 	
+system("PAUSE");	
 return 0;
 	
 }
