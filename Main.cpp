@@ -26,7 +26,7 @@ cout<<"Test \n";
 
 }
 
-void()
+void nalin()
 {
   vector<int> fibnums(2);
     int end=0;
