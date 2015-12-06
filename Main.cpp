@@ -11,7 +11,7 @@ int main()
     fibnums[0]=0;
     fibnums[1]=1;
     
-    cout<< "Enter a number to stop the fibonacci sequence before!n";
+    cout<< "Enter a number to stop the fibonacci sequence before\n";
     cin>> end;
     
     while (fibnums[count]<= end)
