@@ -21,6 +21,7 @@ do
 	
 	if(nums[i]>end)
 	{
+//		nums.pop_back();
 		break;
 	}   
 	i++; 
