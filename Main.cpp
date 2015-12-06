@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    vector<int> fibnums;
+    vector<int> fibnums(2);
     int end=0;
     int count=2;
     
